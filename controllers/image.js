@@ -6,7 +6,7 @@ const handleApiCall = (req, res) => {
     const USER_ID = 'benkyam';
     const APP_ID = 'facerecognition';
     const MODEL_ID = 'face-detection';
-    const IMAGE_URL = req.body.id;
+    const IMAGE_URL = req.body.input;
 
     const raw = JSON.stringify({
         "user_app_id": {
