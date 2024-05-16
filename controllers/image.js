@@ -7,7 +7,7 @@
 
 const handleApiCall = (req, res) => {
 
-    const PAT = '250c71f2f384418c9edd310fb8339caf';
+    const PAT = process.env.CLARIFAI_PAT;
     const USER_ID = 'benkyam';
     const APP_ID = 'facerecognition';
     const MODEL_ID = 'face-detection';
